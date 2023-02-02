@@ -1,1 +1,18 @@
 /* Place CSS styles here */
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* homepage*/
+span{
+    color:#00c200;
+}
+h1{
+    color: purple
+}
+
+p{
+    color: #1b1b1b;
+    background-color: #efefef;
+}
