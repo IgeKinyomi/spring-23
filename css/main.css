@@ -46,9 +46,210 @@ p{
 }
 
 /*psuedo zen */
-.primary-button{
+button {
+    cursor: pointer;
+}
+
+.primary-button {
     background-color: black;
     color:white;
 }
-.
+.primary-button:hover {
+background-color: #999;
+}
+.secondary-button {
+
+}
+.secondary-button {
+
+}
+
+.primary-button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffb6c1 ;
+    background-color: #000000;
+    border: 1px solid #000000;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+
+.primary-button:hover {
+  color: #000000;
+  background-color: #ffb6c1;
+}
+.primary-button:focus {
+    background: #ffff00;
+    color: #ff0000;
+}
+.primary-button:disabled {
+  background:#800080;
+  color: #ff4500;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.secondary-button{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #add8e6 ;
+  background-color: #000000;
+  border: 1px solid #000000;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 1s ease;
+}
+.secondary-button:hover {
+color: #000000;
+background-color: #add8e6;
+}
+.secondary-button:focus {
+  background: #ffff00;
+  color: #ff0000;
+}
+.secondary-button:disabled {
+  background:#800080;
+  color: #ff4500;
+}
+
+
+.error-button{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffa07a ;
+  background-color: #000000;
+  border: 1px solid #000000;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 1s ease;
+}
+
+.error-button:disabled {
+  color: #080605;
+  background-color:#e95d5d;
+  
+}
+
+.linkx2{
+  display: flex;
+  justify-content: center;
+}
+.primarylink:hover {
+  color: #000000;
+  background-color: #ffb6c1;
+}
+
+.primarylink:focus { 
+   color: #ff0000;
+   background-color: #ffff00;
+}
+.primarylink:visited {
+  color: #080403; 
+  background-color:#2c60ee;
+  
+}
+
+.primarylink:disabled {
+   color: #080403; 
+   background-color:#ee2c2c;
+
+}
+.secondarylink:hover {
+  color: #000000;
+  background-color: #add8e6;
+}
+.secondarylink:focus { 
+  color: #ff0000;
+  background-color: #ffff00;
+}
+.secondarylink:visited {
+ color: #080403; 
+ background-color:#2cee83;
+ 
+}
+
+.secondarylink:disabled {
+  color: #080403; 
+  background-color:#ee2c2c;
+}
+.fullname:hover{
+  color: #000000;
+  background-color: #ffb6c1;
+}
+.fullname:focus{
+  color: #ff0000;
+  background-color: #ffff00;
+}
+.fullname:disabled{
+  color: #080403; 
+  background-color:#ee2c2c;
+}
+.fullname:has an error{
+  color: #080605;
+  background-color:#e95d5d;
+}
+.fullname:has an error and :hover{
+  color: #080403; 
+  background-color:#2c60ee;
+}
+.fullname:has an error and :focus{
+  color: #080403; 
+  background-color:#ee632c;
+}
+
+.whitebox:hover{
+  color: #000000;
+  background-color: #add8e6;
+}
+.whitebox:focus{
+  color: #ff0000;
+  background-color: #ffff00;
+}
+.whitebox:disabled{
+  color: #080403; 
+  background-color:#ee2c2c;
+}
+.whitebox:has an error{
+  color: #080605;
+  background-color:#e95d5d;
+}
+.whitebox:has an error and :hover{
+  color: #080403; 
+  background-color:#2c60ee;
+}
+.whitebox:has an error and :focus{
+  color: #080403; 
+  background-color:#ee632c;
+}
+
+/* Fake border that doesn't effect the size*/
+/* test it by tabbing*/ 
+.primary-button:focus {
+  box-shadow: 0 0 0 4px aqua;
+} 
+
+.secondary-button:focus {
+  box-shadow: 0 0 0 4px palevioletred;
+} 
+
+.error-button:focus {
+  box-shadow: 0 0 0 4px rgb(250, 15, 15);
+} 
+
+.whitebox:focus {
+  box-shadow: 0 0 0 4px rgb(250, 15, 15);
+} 
 /*end */
